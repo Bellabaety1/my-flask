@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* body{
+    background-color: rgb(226, 226, 226);
+    display: block;
+    
+} */
+header div{
+    background-color: #128C7E;
+    width: 100%;
+    height: 23.7%;
+    position: fixed;
+}
+main{
+    width: 90%;
+    height: 650px;
+    background-color: rgb(236,229,221);
+    display: flex;
+    position: absolute;
+    box-shadow: 0px 0px 3px;
+    border-radius: 5px;
+    margin: 60px;
+}
+main .options{     
+    width: 40%;
+    /* margin: 60px;
+     */
+}
+.Op-upbar{
+    display: flex;
+    height: 9%;
+    background-color: #f2f2f2;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px 0px 10px;
+    border-radius: 5px 0px 0px 0px;
+    border-right: 2px solid rgb(212, 212, 212);;
+}
+.Op-upbar .opt-l img{
+    width: 40px;
+    height: 40px;
+    -w
+}
+
+.opt-r{
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+}
+.Op-upbar .opt-r img{
+    width: 18px;
+    height: 18px;
+}
+.search-bar{
+    background-color: white;
+    height: 5%;
+    display: flex;
+}
+.search-bar input{
+    width: 100%;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+}
+.search-bar img{
+    width: 16px;
+    height: 16px;
+    align-self: center;
+    margin-left: 4px;
+}
+section.contact-box{
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    overflow-y: scroll;
+    border: 1px solid black;
+}
+.contact-box .contact{
+    background-color: #f2f2f2;
+    height: 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px 0px 5px;
+}
+.contact-box .contact-1{
+    background-color: white;
+    height: 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px 0px 5px;
+}
+.contact div,.contact-1 div{
+    width: 16%;
+}
+.contact div img,.contact-1 div img, .inf-bar div img{
+    width: 40px;
+    width: 40px;
+}
+.contact .g,.contact-1 .g{
+    width: 60%;
+}
+.contact div .typing{
+    color:#25D366;
+
+}
+.contact-1 div legend{
+    color: rgb(179, 179, 179);
+}
+.info{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+section .inf-bar{
+    background-color: rgb(227, 227, 227);
+    height: 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px 0px 8px;
+    border-top-right-radius: 5px;
+    background-color: #f2f2f2;
+
+}
+.c{
+    width: 20%;
+    justify-content: space-between;
+    display: flex;
+}
+.inf-bar .r-b{
+    display: flex;
+    width: 8%;
+    justify-content: space-between;
+    margin-right: 15px;
+
+}
+.r-b img{
+    width: 20px;
+    height: 20px;
+}
+div.write{
+    height: 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 2px 8px 2px 8px;
+}
+.write input{
+    width: 92%;
+    height: 70%;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+div.message{
+    height: 92%;
+}
